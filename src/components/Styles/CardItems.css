@@ -1,0 +1,6 @@
+.card {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-right: 10px;
+    margin-top: 20px;
+}

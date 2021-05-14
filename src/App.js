@@ -1,4 +1,6 @@
 import CardItem from "./components/CardItem";
+import NavBar from "./components/NavBar";
+import RadioExampleRadioGroup from "./components/radioButtonGroup";
 
 const App = () => {
 
@@ -20,7 +22,11 @@ const App = () => {
         price: 3.00
     },]
     return <div>
-        <CardItem cards={cards}/>:
+        <NavBar/>
+        <div style={{height: '80%', width: '80%', margin: "auto"}}>
+            <RadioExampleRadioGroup categories={categories}/>
+            <CardItem cards={cards}/>
+        </div>
     </div>
 }
 
