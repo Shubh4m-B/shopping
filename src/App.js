@@ -15,6 +15,7 @@ const App = () => {
         title: 'car',
         description: 'ting ting',
         price: 98
+
     }, {
         image: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1049&q=80',
         title: 'bus',
